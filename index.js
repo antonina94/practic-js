@@ -137,7 +137,7 @@ selectCities.addEventListener('change', onSelectCities);
 
 function onSelectCities(event) {
     const city = selectCities.value;
-    containerCities.style.backgroundImage = `url(images/${city}.jpg)`;
+    containerCities.style.backgroundImage = `url(..//images/${city}.jpg)`;
     containerCities.style.backgroundSize = 'cover';
     containerCities.style.backgroundPosition = 'center';
     containerCities.style.width = '50%';
