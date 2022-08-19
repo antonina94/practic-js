@@ -142,4 +142,5 @@ function onSelectCities(event) {
     containerCities.style.backgroundPosition = 'center';
     containerCities.style.width = '50%';
     containerCities.style.height = '400px';
+    containerCities.style.display = 'block';
 }
