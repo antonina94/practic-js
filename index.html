@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+   <div>
+    <p>Завдання 1. Користувач вводить своє ім’я в текстове поле. При натисканні на кнопку
+        відображається привітання:</p>
+    <form>
+        <input type="input" id="greet" name="greet" placeholder="Enter your name"><br>
+    </form>
+    <button type="submit">OK</button>
+   </div>
+   
+
+    <div>
+        <p>Завдання 2. Користувач заповнює два текстові поля. При натисканні на кнопку, значення в
+            цих полях міняються місцями:</p>
+        <form>
+            <input type="input" id="input1"  name="hello-world" placeholder="Enter your firsrt name"><br>
+            <input type="input" id="input2" name="hello-world" placeholder="Enter your last name"><br>
+        </form>
+        <button type="submit" class="button">OK</button>
+    </div>
+       
+    
+   <div>
+    <p>Завдання 3. Дано сторони прямокутника (вводяться користувачем). При натисканні на
+        кнопку обчислити периметр та площу прямокутника:
+        </p>
+    <form>
+        <label for="inputA"> Сторона А</label>
+        <input type="input" id="inputA" name="A"><br>
+        <label for="inputB"> Сторона В</label>
+        <input type="input" id="inputB" name="B"><br>
+    </form>
+        <button type="submit" class="calc-btn">OK</button>
+        <div class="container"></div>
+   </div>
+
+    <div>
+        <p>Завдання 4 (варіант 1). Дано катети прямокутного трикутника (вводяться користувачем).
+            При натисканні на кнопку, обчислюється його гіпотенуза. Приклад роботи проілюстровано
+            на рисунку:</p>
+        <form>
+            <label for="katetA">Катет А</label>
+            <input type="input" id="katetA" name="katet"><br>
+            <label for="katetB">Катет В</label>
+            <input type="input" id="katetB" name="katet"><br>
+        </form>
+            <button type="submit" class="calc-btn-hipotenuse">OK</button>
+            <div class="container-hipotenuse"></div>
+    </div>
+
+    <div>
+        <p>Завдання 4 (варіант 2). Дано радіус круга (вводиться користувачем). При натисканні на
+            кнопку обчислюється його площа:</p>
+        <form>
+            <label for="circle">Радіус круга</label>
+            <input type="input" id="circle" name="A"><br>
+        </form>
+            <button type="submit" class="calc-btn-circle">OK</button>
+            <div class="container-circle"></div>
+    </div>
+
+    <div>
+        <p>Завдання 4 (варіант 3). Дано час руху в секундах та відстань в метрах (вводяться
+            користувачем), що подолав велосипедист. При натисканні на кнопку обчислюється його
+            швидкість руху в км/год:</p>
+        <form>
+            <label for="time">Час руху (с)</label>
+            <input type="input" id="time" name="time"><br>
+            <label for="distanse">Відстань (м)</label>
+            <input type="input" id="distanse" name="distanse"><br>
+        </form>
+            <button type="submit" class="calc-btn-speed">OK</button>
+            <div class="container-speed"></div>
+    </div>
+
+    <div>
+        <form>
+            <p>Завдання 5. Дано блок і поле для вибору кольору. При здійсненні вибору кольору в блоці
+                з’являється 16-ве значення кольору, а сам блок заливається даним кольором:</p>
+            <label for="color">Koлір</label>
+            <input type="color" id="color" name="color"><br>
+        </form>
+            <div class="container-color"></div>
+    </div>
+
+    <div>
+        <p>
+            Завдання 6. Дано випадний список міст та відповідні зображення міст. <a href="https://drive.google.com/drive/folders/1a-EjnvGVdqjY7CtADMfGIESGMpNRqTKq" target="_blank">Посилання на
+                зображення.</a> При виборі міста зі списку на сторінці з’являється його зображення:
+        </p>
+        <form>
+            <select name="cities" id="cities">
+                <option value="New-York">New York</option>
+                <option value="Los-Angeles">Los Angeles</option>
+                <option value="Chicago">Chicago</option>
+            </select>
+            <div class="container-cities"> </div>
+        </form>
+    </div>
+</body>
+<script src="./index.js"></script>
+<!-- <script src="./test.js"></script> -->
+</html>
